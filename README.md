@@ -1,4 +1,4 @@
-# Managarm's Library of Freestanding Cryptographic Algoriths
+# Managarm's Library of Freestanding Cryptographic Algorithms
 
 This library implements freestanding versions of various cryptographic
 primitives. As of now, AES256 and SHA256 are implemented.
