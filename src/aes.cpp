@@ -6,6 +6,8 @@
 
 namespace cralgo {
 
+// NOLINTBEGIN(misc-confusable-identifiers)
+
 // [cralgo]: Borrowed from Botan (a5cb4c5c, src/lib/block/aes/aes.cpp).
 void AES_SBOX(uint32_t V[8])
    {
@@ -684,5 +686,7 @@ void aes256_decrypt(const uint8_t in[], uint8_t out[], size_t blocks,
 		aes_secret_key *dk) {
 	aes_encrypt_n(in, out, blocks, dk->words, 60);
 }
+
+// NOLINTEND(misc-confusable-identifiers)
 
 } // namespace cralgo
